@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">Amusement Park</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string name="nav_item_amazing_rides">Feel the thrill-Amazing Ride</string>
+    <string name="nav_item_gallery_review">Gallery &amp; Review</string>
+    <string name="nav_item_food">Food &amp; Beverages</string>
+    <string name="nav_item_rates">Rates &amp; Timing</string>
+    <string name="nav_item_refer">Refer &amp; Earn</string>
+    <string name="nav_item_hot">Hot &amp; Offers</string>
+    <string name="nav_item_contactus">Contact Us</string>
+    <string name="nav_item_aboutus">About Us</string>
+
+    <!-- navigation drawer item labels  -->
+    <string-array name="nav_drawer_labels">
+        <item>@string/nav_item_amazing_rides</item>
+        <item>@string/nav_item_gallery_review</item>
+        <item>@string/nav_item_food</item>
+        <item>@string/nav_item_rates</item>
+        <item>@string/nav_item_refer</item>
+        <item>@string/nav_item_hot</item>
+        <item>@string/nav_item_contactus</item>
+        <item>@string/nav_item_aboutus</item>
+    </string-array>
+
+    <string-array name="nav_drawer_icons">
+        <item>@drawable/ic_one</item>
+        <item>@drawable/ic_two</item>
+        <item>@drawable/ic_three</item>
+        <item>@drawable/ic_three</item>
+        <item>@drawable/ic_one</item>
+        <item>@drawable/ic_one</item>
+        <item>@drawable/ic_three</item>
+        <item>@drawable/ic_two</item>
+        <item>@drawable/ic_three</item>
+    </string-array>
+
+    <string-array name="Quantity">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+    </string-array>
+
+    <!--<integer-array name="rides">
+        <item>@drawable/ride_one</item>
+        <item>@drawable/ride_two</item>
+        <item>@drawable/ride_three</item>
+        <item>@drawable/ride_four</item>
+        <item>@drawable/ride_five</item>
+        <item>@drawable/ride_six</item>
+        <item>@drawable/ride_seven</item>
+        <item>@drawable/ride_eight</item>
+        <item>@drawable/ride_nine</item>
+        <item>@drawable/ride_ten</item>
+        <item>@drawable/ride_eleven</item>
+        <item>@drawable/ride_twelve</item>
+        <item>@drawable/ride_thirteen</item>
+        <item>@drawable/ride_fourteen</item>
+        <item>@drawable/ride_fifteen</item>
+        <item>@drawable/ride_sixteen</item>
+        <item>@drawable/ride_seventeen</item>
+        <item>@drawable/ride_eighteen</item>
+    </integer-array>-->
+
+    <string name="title_messages">Messages</string>
+    <string name="title_friends">Friends</string>
+    <string name="title_home">Home</string>
+    <string name="permission_message">All permissions are must required for run application \n\n Goto->App info->Permissions->Enable all permissions </string>
+</resources>

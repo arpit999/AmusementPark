@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/toolbar" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/logo"
+            android:paddingBottom="10dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:text="arpit"
+                android:id="@+id/et_name"
+                android:drawablePadding="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/hint_name"
+                android:drawableStart="@drawable/hint_name"
+                android:hint="Name"
+                android:textColor="@color/colorPrimary"
+                android:inputType="textPersonName"
+                android:paddingLeft="10dp"
+                android:textColorHint="@color/colorPrimary" />
+
+            <EditText
+                android:text="Z@g.c"
+                android:drawablePadding="5dp"
+                android:textColor="@color/colorPrimary"
+                android:id="@+id/et_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/hint_email"
+                android:drawableStart="@drawable/hint_email"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:paddingLeft="10dp"
+                android:textColorHint="@color/colorPrimary" />
+
+            <EditText
+                android:text="12/12/2001"
+                android:focusable="false"
+                android:clickable="true"
+                android:drawablePadding="5dp"
+                android:textColor="@color/colorPrimary"
+                android:id="@+id/et_dob"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/hint_dob"
+                android:drawableStart="@drawable/hint_dob"
+                android:hint="DOB"
+                android:inputType="none"
+                android:paddingLeft="10dp"
+                android:textColorHint="@color/colorPrimary" />
+
+            <EditText
+                android:text="9874563210"
+                android:drawablePadding="5dp"
+                android:maxLength="10"
+                android:textColor="@color/colorPrimary"
+                android:id="@+id/et_mobile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:drawableLeft="@drawable/hint_mobile"
+                android:drawableStart="@drawable/hint_mobile"
+                android:hint="Mobile"
+                android:inputType="number"
+                android:paddingLeft="10dp"
+                android:textColorHint="@color/colorPrimary" />
+
+            <ImageView
+                android:id="@+id/img_profile"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:visibility="gone"
+                android:layout_marginBottom="10dp"/>
+
+            <RelativeLayout
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorPrimary">
+
+                <Button
+                    android:id="@+id/bt_upload_image"
+                    android:textColor="@color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Upload Image"
+                    android:background="@color/transparent"
+                    android:padding="10dp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary">
+
+                <Button
+                    android:id="@+id/bt_signup"
+                    android:textSize="18sp"
+                    android:textColor="@color/white"
+                    android:text="SIGN UP"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/transparent"/>
+
+            </RelativeLayout>
+
+            <Button
+                android:visibility="gone"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="30dp"
+                android:textColor="@color/white"
+                android:background="@color/MidnightBlue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Signup with Facebook"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>
